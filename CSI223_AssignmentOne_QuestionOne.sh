@@ -3,6 +3,9 @@
 # Tapologo I. Lungani 201701304
 # Karabo K. Tebelelo  201701145
 
+# Note that explanations of commands used are in a separate file "Notes.txt".
+# Comments here explain what command options do.
+
 # Question One
 # To extract the string on line number 13th.
 
@@ -27,8 +30,8 @@ echo "Total number of T's is $NumberOfTs"
 # To count the number of times symbols occur.
 echo 'Enter Sequence'
 read sequence
-ifA = grep -o A <<< $sequence | wc -l
-ifC = grep -o C <<< $sequence | wc -l
-ifG = grep -o G <<< $sequence | wc -l
-ifT = grep -o T <<< $sequence | wc -l
+ifA=$(echo $sequence | tr -cd 'A' | wc -m) # 'tr -cd' removes all characters other than the one given in quotes.
+ifC=$(echo $sequence | tr -cd 'C' | wc -m)
+ifG=$(echo $sequence | tr -cd 'G' | wc -m)
+ifT=$(echo $sequence | tr -cd 'T' | wc -m)
 echo "$ifA $ifC $ifG $ifT"

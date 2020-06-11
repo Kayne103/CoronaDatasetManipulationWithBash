@@ -17,4 +17,4 @@ QUESTION THREE : echo - Used to print a message and output to console / write to
                  tr   - Used to find and replace characters in a string.
                  rev  - Used to reverse a string.
 
-#Some techniques used are pipelining and redirection of input. '|' Used to pipeline , '<<<' used to redirect input.
+#Some techniques used are pipelining. '|' Used to pipeline.
