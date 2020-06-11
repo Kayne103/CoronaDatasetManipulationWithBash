@@ -1,0 +1,20 @@
+-----------------------------------------------
+LIST OF COMMANDS USED AND HOW THEY WERE USED.
+-----------------------------------------------
+
+QUESTION ONE : wc   - Used to print word counts for each file.
+               sed  - (Stream Editor) Used for functions like insertion or deletion, searching, finding and replacing.
+               awk  - Used to search files for a match, performs an action when there's a match.
+               tail - Used to output the last part of a file.
+               grep - Used to search for patterns in a file.
+
+*Note that some commands repeat in answers given.*
+
+QUESTION TWO : Command used and description found below.
+
+QUESTION THREE : echo - Used to print a message and output to console / write to standard output.
+                 read - Used to get input from the keyboard.
+                 tr   - Used to find and replace characters in a string.
+                 rev  - Used to reverse a string.
+
+#Some techniques used are pipelining and redirection of input. '|' Used to pipeline , '<<<' used to redirect input.
